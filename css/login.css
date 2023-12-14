@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: weight;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+    background-color: rgb(241, 239, 233);
+    height: 100%;
+}
+
+nav {
+    background-color: #333333;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+
+}
+
+nav ul {
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eb2f06;
+}
+
+nav li img {
+    width: 56px;
+    height: 52px;
+    margin-top: -12px;
+    margin-left: -181px;
+}
+
+.home {
+    margin-left: -436px;
+}
+
+.login {
+    position: relative;
+    left: 380px
+}
+
+.register {
+    position: relative;
+    left: 140px;
+}
+
+.span {
+    margin: 17px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg {
+    color: blue;
+}
+
+.container {
+    position: relative;
+    top: 170px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 12px 2px 1px rgba(134, 134, 209, 0.1);
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    margin-left: 17px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: #f1f1f1;
+    outline-style: none;
+}
+
+/* input[type="checkbox"] {
+    margin-left: -200px;
+} */
+
+button {
+    text-align: center;
+    background: #eb2f06;
+    color: white;
+    padding: 14px 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+form button:hover {
+    background: none;
+    color: #eb2f06;
+}
+
+
+
+/* Start Footer  */
+.content {
+    padding: 20px;
+
+
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    background: #111;
+    z-index: 101;
+}
+
+
+
+footer .bottom {
+    width: 100%;
+    color: #d9d9d9;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-46%, -50%);
+
+}
+
+footer .bottom span {
+    color: #eb2f06;
+}

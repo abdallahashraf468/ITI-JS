@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li>
+                <a href="home.html"> <img src="./img/logo2.png" alt=""> </a>
+            </li>
+            <form>
+                <input type="search" placeholder="Search.." name="search2">
+                <button type="submit"> <a id="buttonsearch"><i class="fa fa-search"></a></i></button>
+            </form>
+            <a href="login.html" id="welcome-heading"><span class="userIcon"> Account <i
+                        class="fa-solid fa-user"></i></span></a>
+        </ul>
+    </nav>
+
+    <!-- next section is appeare when user add some items -->
+    <div>
+        <br><br><br>
+    </div>
+    <section id="cart-container" class="center-container">
+        <ul id="cart-items"></ul>
+    </section>
+    <p id="cart-total">Cart Total: $0.00</p>
+    <div id="cart-confirm">
+        <button id="checkoutBtn"><a href="checkout.html">checkout</a></button>
+    </div>
+    <!-- end of cart with items -->
+    <div id="contentCart" class="section1">
+        <div class="container">
+            <a href="./home.html" class="contact-link">Return to Shop </a>
+            <br>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+                    <div class="topic">About us</div>
+                    <p>Easy platform to use when you're online shopping for any type of products you're looking for.
+                        Even if you're just browsing, we assure you that you will find something you like in our
+                        catalog. Our store provides you with over one million products and variations to
+                        choose from! You can shop for anything you need. </p>
+                </div>
+                <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div id="conact" class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+20 1280 38 93 93</a>
+                    </div>
+                    <div class="email">
+                        <a href="#"><i class="fas fa-envelope"></i>Group1@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle box">
+                <div class="topic">Our Produccts</div>
+                <div><a href="#section1">Phones-Tablets</a></div>
+                <div><a href="#section2">Electronics</a></div>
+                <div><a href="#section3">Sporting-Goods</a></div>
+                <div><a href="#section5">Home-Office</a></div>
+                <div><a href="#section4">Games</a></div>
+
+            </div>
+            <div class="right box">
+                <div class="topic">Subscribe us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit">
+                    <div class="media-icons">
+                        <a><i class="fab fa-facebook-f"></i></a>
+                        <a><i class="fab fa-instagram"></i></a>
+                        <a><i class="fab fa-twitter"></i></a>
+                        <a><i class="fab fa-youtube"></i></a>
+                        <a><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <p>Copyright © 2023 <span>Group 1</span> All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./js/cart.js"></script>
+</body>
+
+</html>

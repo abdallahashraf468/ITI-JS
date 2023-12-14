@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+    <title>Register Page</title>
+</head>
+
+<body>
+    <div class="body">
+        <nav>
+            <ul>
+                <li> <img src="./img/logo2.png" alt=""></li>
+                <li><a class="home" href="home.html">Home</a></li>
+                <li><a class="login" href="login.html">Login</a></li>
+                <li><a class="register" href="register.html"> Register</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <form id="Register-form" action="login.html" method="post">
+                <h2>Register</h2>
+
+                <input type="text" id="username" class="input-box" placeholder="Username" name="username" required>
+                <input type="email" id="email" class="input-box" name="email" placeholder="Email">
+                <input type="password" id="pass" class="input-box" placeholder="Password" name="password" required>
+                <input type="password" id="confirmPass" class="input-box" name="confirm password" placeholder="Confirm Password" required>
+
+                <span class="span">Already Have Account ? <a class=" reg" href="login.html">Login</a></span>
+                <button type="submit"><b>REGISTER</b></button>
+            </form>
+        </div>
+
+        <footer>
+            <div class="bottom">
+                <p>Copyright © 2023 <span>Group 1</span> All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/register.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+- to show the product , you must run the live server in (home.html, cart.html, checkout.html).
+- (login.html) and (register.html) both are not running in live server.
+
+thank you :)
